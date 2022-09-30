@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* main styles */
+.main {
+  /* display - он размещает контейнеры которые есть внутри него так как нам нужно. "flex" - віравнивает в одну линию. */
+  display: flex;
+  /* flex-direction - с помощью него можно развернуть выравнивание как нам нужно*/
+  flex-direction: row-reverse;
+  width: 1200px;
+  /* "margin: 0px auto" - размещает контент: "0px" - отсутп сверху и снизу нулевой, а "auto" - подгоняет по ширине нашего экрана.  */
+  margin: 0px auto;
+}
+
+/* main-content style*/
+.main-content {
+  background-color: #fff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+/* about styles */
+.about {
+  /* отсутупы можно написать сокращенным синтаксисом с одни margin, значения пишутся 1 это вверх(top), 2 - это вправо(right)
+        3 - это вниз (bottom) это влево(left) 4 - это влево(left)*/
+  /* margin: 40px 51px 458px 257px; */
+  margin-bottom: 40px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+
+/* projects style*/
+.projects {
+  /* bgc он же background color - цвет фона */
+  /* background: chocolate; */
+
+  /* margin - внешние отступы. Пример снизу: сверху, снизу, слева, спарва;
+    Второй вариант: отсутупы можно написать сокращенным синтаксисом с одни margin, значения пишутся 1 это вверх(top), 
+    2 - это вправо(right) 3 - это вниз (bottom) это влево(left) 4 - это влево(left), привер:
+    margin: 40px 51px 458px 257px;
+    Если написано одно занчение, пример "margin: 40px"- этот отсутп будет во все стороны;
+    Если 2 значения "margin: 40px 50px" - это 1 значение вверх и вниз, второе - влево и вправо*/
+  /* margin-top: 40px;
+    margin-bottom: 51px;
+    margin-left: 458px;
+    margin-right: 257; */
+  margin-bottom: 50px;
+}
+
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.projects-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project,
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+}
+
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* work stules */
+.work {
+  /* @padding@ - это внутренние отступы. Он работает по такому же принцыпу как @margin@ */
+  /* padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px; */
+  margin-bottom: 45px;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* educatuon */
+.education {
+}
+
+.education-titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+.education-organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 0 0 10px 0;
+}
+
+.education-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 10px 0;
+}
+
+.education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+/* sitebar style */
+.sitebar {
+  background-color: #1e2939;
+  padding-top: 40px;
+  width: 370px;
+}
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+
+.sidebar-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+}
+
+.tech-skills {
+  margin-bottom: 45px;
+}
+
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4f5864;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+  color: #ffffff;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+  color: #fb6d3a;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
